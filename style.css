@@ -1,0 +1,259 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none ;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    color: #333333;
+    left: 0;
+    top: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+}
+h1,.h2{
+    font-family: 'Caveat', cursive;
+}
+.header__nombre--left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+header img{
+    width: 10vh;
+    height: 10vh;
+    border-radius: 50%;
+}
+.header__ul{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+}
+.header__ul a{
+    text-decoration: none;
+    color: inherit;
+}
+.header__ul h3{
+    height: 28px;
+    object-fit: cover;
+    overflow: hidden;
+    font-family: 'Borel', cursive;
+}
+h2,h3{
+    font-family: 'Borel', cursive;
+}
+main{
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top:5.1rem;
+}
+.main__image{
+    width: 98.79vw;
+    height:90vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255, 255, 1), rgba(120, 200, 230, .5)), url(img/Diseño\ sin\ título\ \(14\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+header h3:hover{
+   color:  rgb(165, 130, 221);
+}
+.main__image h2{
+    font-size: 2.5rem;
+}
+.main__image--p{
+    font-size: 1.5rem;
+    width: 50vw;
+    text-align: center;
+}
+.main__image .main__image--p,h2,a{
+    margin: 1.3rem;
+}
+.main__boton--project,.section__gtkm--left a p, a p{
+    padding: 1rem 5rem;
+    background-color: rgb(165, 130, 221);
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Kalam', cursive;
+}
+
+.section__aboutme{
+    display: flex;
+    padding: 0 40px;
+}
+body{
+    background-color: #f6f6f6;
+}
+.section__aboutme h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.linea{
+    width:3% ;
+    height: .7rem;
+    background-color: rgb(197, 127, 255);
+    border-radius: 50px;
+    margin: 3px auto 70px ;
+    
+}
+.h2{
+    padding: 0;
+    margin: 3rem 0 0 0;
+    text-align: center;
+    font-size: 35px;
+}
+.section__gtkm--left h3{
+    font-family: 'Kalam', cursive;
+}
+.section__gtkm--left,.skills{
+    width: 45%;
+    margin: 0 4rem;
+}
+.future__skills div,.current__skills {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.skills h3{
+    font-family: 'Kalam', cursive;
+}
+.skills p{
+    padding: 5px 20px;
+    font-size: 20px;
+    margin:5px 0;
+    background-color: rgb(226, 226, 226);
+    border-radius: 20px;
+    font-family: 'Teko', sans-serif;
+}
+.section__gtkm--left a {
+    width: 10%;
+    text-align: center;
+    
+}
+.section__gtkm--left{
+    line-height: 1.5;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+.section__projects a p{
+    padding: .7rem 2rem;
+    width: 10%;
+    margin: 0 auto;
+}
+.section__projects,.section__projects p ,.p{
+    text-align: center;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    
+}
+.p{
+    margin: 2rem 4rem;
+    padding: 0 40px;
+}
+.section__projects picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 4rem;
+    padding: 0 40px 0 0;
+}
+.p.contact{
+    width: 50%;
+    margin: 0 auto 70px;
+}
+.form__div--text input,.form__div--nombres input,.form__div--contacto input {
+    width: 30vw;
+    padding: 1rem;
+}
+.form__div--text input{
+    padding-bottom: 5rem;
+}
+.div__form{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+.form__div--text {
+    margin: 2% 0;
+}
+
+.section__contact{
+    padding: 30px;
+}
+input {
+    width: 15vw;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 0px solid black;
+    font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.section__contact{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(120, 200, 230, .5)), url(img/Diseño\ sin\ título\ \(14\).png);
+        
+}
+.form-example input{
+    background-color:rgb(197, 127, 255) ;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 25px;
+    font-size: 1.5rem;
+    font-family: 'Kalam', cursive;
+}
+a p:hover{
+    margin-top: -7px;
+    transition: .2s;
+}
+footer{
+    background-color: #333333;
+    height: 40vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+footer div a{
+    text-decoration: none;
+    color: #ffffff;
+    height: 3rem;
+}
+.bxl-linkedin-square{    
+    width: 3rem;
+}
+footer h2{
+    margin: 0;
+}
+.linea__footer{
+    width: 80%;
+    margin: 2rem auto;
+}
